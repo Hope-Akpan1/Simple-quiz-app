@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.h {
+  height: 70vh !important;
+}
+
+
+body{
+  background-image: url('https://i.ibb.co/42QGXpw/pattern-background-mobile-1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  background-color: #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+  margin-top: -6px;
+  background-color: hsl(225, 100%, 98%);
+  border-end-start-radius: 20px;
+  border-end-end-radius: 20px;
+}
+
+.bg-score {
+  background-color: #BEC2F5 !important;
+}
+
+.bg-manual{
+  background-color: #9EA2C8 !important;
+}
+
+.text-answer  {
+  color: #DD92F9 !important;
+}
+
+@media screen and (min-width: 370px) {
+  body {
+    background-image: url('https://i.ibb.co/B2thfd0/pattern-background-desktop.png')
+  }
+
+  
+}

@@ -21,7 +21,7 @@ I use my phone to code, pardon some little errors especially when its not respon
 ## Overview
 My approach to this task.
 I will appreciate any review to improve.
-I really apologize for late submission.
+I really apologize for late submission, a lot has been going on.
 
 
 ### Links

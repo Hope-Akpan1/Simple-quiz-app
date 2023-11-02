@@ -1,10 +1,10 @@
-# KodeCamp - {finsweet solution
+# KodeCamp - {JavaScript solution
 
-This is my solution to the Bootstrap task.
+This is my solution to the JavaScript task.
 The fist page is a landing page that leads to the Quiz questions.
 Enjoy!
 
-I use my phone to code, pardon some little errors especially when its not responsive. This task is done for desktop view for now,and it is not responsive in mobile.
+I use my phone to code, pardon some little errors.
 
 ## Table of contents
 
@@ -34,7 +34,7 @@ I really apologize for late submission, a lot has been going on.
 I used my phone to code.
 
 ### Built with
-- SPCK for mobile is what I use to code.
+- SPCK app for mobile is what I use to code.
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
@@ -60,7 +60,7 @@ I hope to improve on this skill, although coding with my phone is a bit difficul
 
 - [Example resource 1](https://developer.mozilla.org/en-US/) - This helped me for styling my css. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.w3schools.com/) - This is an amazing website which helped me finally understand media query. I'd recommend it to anyone still learning this concept.
-
+[Example resource 3](https://www.freecodecamp.com/) - This is an amazing website which helped me finally understand JavaScript. I'd recommend it to anyone still learning this concept.
 
 ## Author
 

@@ -28,7 +28,7 @@ I really apologize for late submission, a lot has been going on.
 
 - Solution URL:
   (https://github.com/Hope-Akpan1/Simple-quiz-app)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://hope-akpan1.github.io/Simple-quiz-app/)
 
 ## My process
 I used my phone to code.

@@ -4,24 +4,20 @@
   box-sizing: border-box;
 }
 
+
 body {
-
   background-image: url('https://i.ibb.co/42QGXpw/pattern-background-mobile-1.png');
-
   background-repeat: no-repeat;
   background-size: contain;
-  display: flex;
-  background-color: #000;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   font-family: 'Red Hat Display', sans-serif;
 }
 
+
 img {
-  border-start-start-radius: 20px;
-  border-start-end-radius: 20px;
+  border-start-start-radius: 31px;
+  border-start-end-radius: 31px;
 }
 
 
@@ -32,6 +28,7 @@ h1 {
   color: hsla(223, 47%, 23%, 1);
 }
 
+
 p {
   padding: 0 25px 20px;
   text-align: center;
@@ -41,9 +38,10 @@ p {
   line-height: 1.8;
 }
 
+
 .start-up {
   background-color: hsl(225, 100%, 96%);
-  width: 260px;
+  width: 100% !important;
   height: 80px;
   display: flex;
   flex-direction: row;
@@ -65,21 +63,18 @@ p {
   color: hsl(245, 75%, 52%);
 }
 
+
 .change:hover {
   color: hsl(245, 85%, 72%);
 }
+
 
 .price {
   color: hsl(224, 23%, 55%);
 }
 
 
-button {
-  margin: 30px 26px;
-  padding: 18px 20px;
-  width: 260px;
-  border: 0 solid;
-  color: #fff;
+.btn-start {
   background-color: hsl(245, 75%, 52%);
   border-radius: 10px;
   box-shadow: 0 5px 20px -5px hsl(245, 75%, 52%);
@@ -87,9 +82,10 @@ button {
 }
 
 
-button:hover {
+.btn-start:hover {
   background-color: hsl(245, 85%, 72%);
 }
+
 
 .enjoy {
   text-align: center;
@@ -97,6 +93,7 @@ button:hover {
   font-weight: 700;
   color: hsl(224, 23%, 55%);
 }
+
 
 .enjoy:hover {
   color: hsl(223, 47%, 23%);
@@ -110,32 +107,9 @@ main {
   background-color: hsl(225, 100%, 98%);
   border-end-start-radius: 20px;
   border-end-end-radius: 20px;
- 
 }
 
-@media screen and (min-width: 370px) {
-  body {
-    background-image: url('https://i.ibb.co/B2thfd0/pattern-background-desktop.png')
-  }
-  
-  main{
-    width: 375px;
-    height: 380px;
-  }
-  .top-image{
-    width: 375px;
-  }
-  
-  .music{
-    width: 300px;
-  }
-  
-  button{
-    width: 300px;
-    margin: 25px 37px;
-  }
-  
-  h1{
-    padding: 30px 110px 20px;
-  }
+
+.card {
+  background-color: hsl(225, 100%, 98%) !important;
 }

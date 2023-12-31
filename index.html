@@ -9,38 +9,48 @@
 
   <title>My Start Page</title>
 
+  <!-- custom style -->
   <link rel="stylesheet" href="css/style.css">
 
-
+  <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
 
+  <!-- Bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 </head>
 
-<body>
-  <header>
-    <img src="img/img.jpeg" width="310px" alt="img/img.jpeg" class="top-image">
-  </header>
+<body class="bg-dark d-flex justify-content-center align-items-center">
 
-  <main>
-    <div>
-      <h1> Simple Quiz App</h1>
-    </div>
-    <div>
-      <p>You are welcome to my Quiz site<br> <b></b>
-    </div>
-    <div class="start-up">
-      <div>
-        <div class="plan">
-          <h2>Test Yourself!</h2>
+  <div class="container my-5">
+    <div class="container">
+      <div class="container-sm">
+        <div class="card rounded-5">
+          <img src="img/img.jpeg" alt="img/img.jpeg" class="top-image">
+          <div class="card-body">
+            <h2 class="text-center"> Simple Quiz App</h2>
+            <div>
+              <p>You are welcome to my Quiz site<br> <b></b>
+            </div>
+            <div class="start-up">
+              <div>
+                <div class="plan my-2">
+                  <h2>Test Yourself!</h2>
+                </div>
+              </div>
+            </div>
+            <div class="my-4 text-center Shadow-sm"> <a href="js-index.html" class="btn-start py-3 px-5  text-white  text-decoration-none">Start Quiz</a></div>
+            <div class="enjoy">Enjoy!</div>
+          </div>
         </div>
       </div>
     </div>
-    <div> <a href="js-index.html"> <button type="button"><h3>Start Quiz</h3></button></a></div>
-    </div>
-    <div class="enjoy">Enjoy!</div>
-  </main>
+  </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
-</html>
+              </html>
